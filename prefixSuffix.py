@@ -16,10 +16,9 @@ def prefixSufix(x):
             t=P[t]
         t+=1
         P.append(t) 
-    print P
     return P
     
 
-x = "01101001100101101001011001101001"
+if __name__ == "__main__":
+    print prefixSufix(x)
 #x = "abababababb"
-print prefixSufix(x)
